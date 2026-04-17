@@ -4,7 +4,7 @@
 # ══════════════════════════════════════════════════════════
 
 # ── 1. Token Discord du bot (obtenu sur discord.com/developers)
-DISCORD_TOKEN = MTQ5NDc0MjkwNTY0OTM2NTE2Mg.GzyqLg.IWldj0RjQ9ydeLCT1jXCRm05Wyhy62ehZJV0aQ
+DISCORD_TOKEN = 
 
 # ── 2. ID du canal Discord où envoyer les alertes
 #   (clic droit sur le canal → "Copier l'ID" — mode développeur requis)
