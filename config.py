@@ -4,11 +4,11 @@
 # ══════════════════════════════════════════════════════════
 
 # ── 1. Token Discord du bot (obtenu sur discord.com/developers)
-DISCORD_TOKEN = "METS_TON_TOKEN_ICI"
+DISCORD_TOKEN = MTQ5NDc0MjkwNTY0OTM2NTE2Mg.GzyqLg.IWldj0RjQ9ydeLCT1jXCRm05Wyhy62ehZJV0aQ
 
 # ── 2. ID du canal Discord où envoyer les alertes
 #   (clic droit sur le canal → "Copier l'ID" — mode développeur requis)
-CHANNEL_ID = 123456789012345678  # ← remplace par ton vrai ID (nombre entier)
+CHANNEL_ID = 1494715814547292232 # ← remplace par ton vrai ID (nombre entier)
 
 # ── 3. Watchlist Actions (tickers Yahoo Finance)
 WATCHLIST_STOCKS = [
