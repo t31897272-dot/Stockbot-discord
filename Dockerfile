@@ -7,4 +7,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "trading_bot_v3.2.py"]
+CMD ["python", "trading_bot_v4.0.py"]
+
