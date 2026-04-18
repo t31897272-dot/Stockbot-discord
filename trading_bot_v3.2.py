@@ -328,7 +328,7 @@ def fmt(s):
             "📰  ANALYSE NEWS","━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"]
         for a in ns["articles"][:3]:
             em="🟢" if a["sentiment"]=="positive" else("🔴" if a["sentiment"]=="negative" else "🟡")
-            L+=[f"  {em} "{a['title']}"",f"      → {a['sentiment'].capitalize()} ({a['score']:+.2f})"]
+            L+=[f"  {em} '{a['title']}'",f"      → {a['sentiment'].capitalize()} ({a['score']:+.2f})"]
         avg_em="🟢" if ns["avg_score"]>0.05 else("🔴" if ns["avg_score"]<-0.05 else "🟡")
         L.append(f"  📰 Score global  : {ns['avg_score']:+.2f} {avg_em}")
 
